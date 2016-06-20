@@ -1,0 +1,8 @@
+C:\Src\Wonderthing\Debug\VkNet.xml
+C:\Src\Wonderthing\Debug\VkNet.dll
+C:\Src\Wonderthing\Debug\VkNet.pdb
+C:\Src\Wonderthing\VkNet\obj\Debug\VkNet.csprojResolveAssemblyReference.cache
+C:\Src\Wonderthing\VkNet\obj\Debug\VkNet.Properties.Resources.resources
+C:\Src\Wonderthing\VkNet\obj\Debug\VkNet.csproj.GenerateResource.Cache
+C:\Src\Wonderthing\VkNet\obj\Debug\VkNet.dll
+C:\Src\Wonderthing\VkNet\obj\Debug\VkNet.pdb
