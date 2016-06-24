@@ -174,18 +174,28 @@ namespace Wonderthing
 			System.Net.WebRequest req = System.Net.WebRequest.Create(URI);
 			req.ContentType = "application/json";  //"application/x-www-form-urlencoded"
 			req.Method = "POST";
-			req.Headers.Add("login:" + Convert.ToBase64String(Encoding.UTF8.GetBytes("login")));
-			req.Headers.Add("password:" + Convert.ToBase64String(Encoding.UTF8.GetBytes("password")));
-			//req.Headers.Add("login:" + Convert.ToBase64String(EncruptAlg.Encrypt(Encoding.UTF8.GetBytes("login"), EncruptAlg.key)));
-			//req.Headers.Add("password:" + Convert.ToBase64String(EncruptAlg.Encrypt(Encoding.UTF8.GetBytes("password"), EncruptAlg.key)));
+			//req.Headers.Add("login:" + Convert.ToBase64String(Encoding.UTF8.GetBytes("login")));
+			//req.Headers.Add("password:" + Convert.ToBase64String(Encoding.UTF8.GetBytes("password")));
+			req.Headers.Add("login:" + Convert.ToBase64String(EncruptAlg.Encrypt(Encoding.UTF8.GetBytes("login"), EncruptAlg.key)));
+			req.Headers.Add("password:" + Convert.ToBase64String(EncruptAlg.Encrypt(Encoding.UTF8.GetBytes("password"), EncruptAlg.key)));
 			byte[] bytes = System.Text.Encoding.UTF8.GetBytes(jsonstr);
 			req.ContentLength = bytes.Length;
-			System.IO.Stream os = req.GetRequestStream();
-			os.Write(bytes, 0, bytes.Length);
-			os.Close();
-			System.Net.WebResponse resp = req.GetResponse();
-			System.IO.StreamReader sr = new System.IO.StreamReader(resp.GetResponseStream());
-			return resp;
+			using (System.IO.Stream os = req.GetRequestStream())
+			{
+				os.Write(bytes, 0, bytes.Length);
+				//os.Close();
+				using (System.Net.WebResponse resp = req.GetResponse())
+				{
+					using (var stream = resp.GetResponseStream())
+					{
+						System.IO.StreamReader sr = new System.IO.StreamReader(stream);
+						return resp;
+					}
+					
+				}
+				
+				
+			}
 		}
 
 		//возвращает размер файла по ссылке если он существует, иначе ошибка.

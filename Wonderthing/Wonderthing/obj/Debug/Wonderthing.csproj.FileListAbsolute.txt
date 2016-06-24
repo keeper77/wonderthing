@@ -29,7 +29,6 @@ C:\Src\Wonderthing\Wonderthing\obj\Debug\Wonderthing.csproj.GenerateResource.Cac
 C:\temp\Wonderthing\Wonderthing\bin\Debug\Wonderthing.exe.config
 C:\temp\Wonderthing\Wonderthing\obj\Debug\Wonderthing.exe
 C:\temp\Wonderthing\Wonderthing\obj\Debug\Wonderthing.pdb
-C:\temp\Wonderthing\Wonderthing\bin\Debug\nppc32_55.dll
 C:\temp\Wonderthing\Wonderthing\bin\Debug\Resources\new.xml
 C:\temp\Wonderthing\Wonderthing\bin\Debug\Wonderthing.exe
 C:\temp\Wonderthing\Wonderthing\bin\Debug\Wonderthing.pdb

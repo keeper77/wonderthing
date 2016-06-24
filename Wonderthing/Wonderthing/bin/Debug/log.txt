@@ -4,3 +4,33 @@ Parameter name: Opbr file size = NULL
 Parameter name: Opbr file size = NULL
 # HttpsClient: 6/20/2016 6:47:42 PM Value cannot be null.
 Parameter name: Opbr file size = NULL
+# HttpsClient: 6/20/2016 7:42:42 PM The error status code:403 Forbidden
+# HttpsClient: 6/20/2016 7:46:35 PM The error status code:403 Forbidden
+# HttpsClient: 6/20/2016 7:48:39 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:48:54 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:48:57 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:50:22 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:50:25 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:51:06 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:51:09 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:51:12 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:51:18 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:53:20 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:53:22 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:53:23 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:55:55 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:55:56 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:56:37 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 7:56:38 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:01:14 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:01:15 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:06:14 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:06:50 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:06:51 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:14:07 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:14:08 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:14:09 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:14:12 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:14:14 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:14:17 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse
+# HttpsClient: 6/20/2016 8:34:15 PM Subsystem2Ansver: authorization System.Net.HttpWebResponse

@@ -4,3 +4,6 @@ C:\Src\Wonderthing\Debug\Injector.pdb
 C:\Src\Wonderthing\Injector\obj\Debug\Injector.exe
 C:\Src\Wonderthing\Injector\obj\Debug\Injector.pdb
 C:\Src\Wonderthing\Injector\obj\Debug\Injector.csprojResolveAssemblyReference.cache
+C:\temp\Wonderthing\Debug\Injector.exe.config
+C:\temp\Wonderthing\Injector\obj\Debug\Injector.exe
+C:\temp\Wonderthing\Injector\obj\Debug\Injector.pdb

@@ -105,49 +105,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cublas32_55.dll" />
-    <Content Include="cudart32_55.dll" />
-    <Content Include="cufft32_55.dll" />
-    <Content Include="cvextern.dll" />
-    <Content Include="nppc32_55.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nppi32_55.dll" />
-    <Content Include="npps32_55.dll" />
-    <Content Include="OpenCL.dll" />
-    <Content Include="opencv_bioinspired290.dll" />
-    <Content Include="opencv_calib3d290.dll" />
-    <Content Include="opencv_contrib290.dll" />
-    <Content Include="opencv_core290.dll" />
-    <Content Include="opencv_cudev290.dll" />
-    <Content Include="opencv_features2d290.dll" />
-    <Content Include="opencv_ffmpeg290.dll" />
-    <Content Include="opencv_flann290.dll" />
-    <Content Include="opencv_gpu290.dll" />
-    <Content Include="opencv_gpuarithm290.dll" />
-    <Content Include="opencv_gpubgsegm290.dll" />
-    <Content Include="opencv_gpucodec290.dll" />
-    <Content Include="opencv_gpufeatures2d290.dll" />
-    <Content Include="opencv_gpufilters290.dll" />
-    <Content Include="opencv_gpuimgproc290.dll" />
-    <Content Include="opencv_gpulegacy290.dll" />
-    <Content Include="opencv_gpuoptflow290.dll" />
-    <Content Include="opencv_gpustereo290.dll" />
-    <Content Include="opencv_gpuwarping290.dll" />
-    <Content Include="opencv_highgui290.dll" />
-    <Content Include="opencv_imgproc290.dll" />
-    <Content Include="opencv_legacy290.dll" />
-    <Content Include="opencv_ml290.dll" />
-    <Content Include="opencv_nonfree290.dll" />
-    <Content Include="opencv_objdetect290.dll" />
-    <Content Include="opencv_ocl290.dll" />
-    <Content Include="opencv_optim290.dll" />
-    <Content Include="opencv_photo290.dll" />
-    <Content Include="opencv_softcascade290.dll" />
-    <Content Include="opencv_stitching290.dll" />
-    <Content Include="opencv_superres290.dll" />
-    <Content Include="opencv_video290.dll" />
-    <Content Include="opencv_videostab290.dll" />
     <None Include="Resources\new.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

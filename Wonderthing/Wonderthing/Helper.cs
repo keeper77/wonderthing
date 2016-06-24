@@ -222,7 +222,7 @@ namespace Wonderthing
 		public static bool CheckPhoto(string path)
 		{
 			Image<Bgr, Byte> My_Image = new Image<Bgr, byte>(path);
-			var cs = new CascadeClassifier(@"new.xml");
+			var cs = new CascadeClassifier("Resources\\new.xml");
 			Size s1 = new Size(100, 100);
 			Size s2 = new Size(400, 400);
 			var rects = cs.DetectMultiScale(new Image<Gray, byte>(path), 1.05, 8, s1, s2).ToArray();
